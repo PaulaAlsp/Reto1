@@ -1564,7 +1564,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5459381327238419766, guid: cd8fd675c280ec34b8e033ba5eb953ef, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.977801
+      value: -4.85
       objectReference: {fileID: 0}
     - target: {fileID: 5459381327238419766, guid: cd8fd675c280ec34b8e033ba5eb953ef, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1904,9 +1904,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2525440566060035953, guid: 9bad4adc493c5b04c9af0b4b4254f087, type: 3}
+      propertyPath: tag.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2525440566060035953, guid: 9bad4adc493c5b04c9af0b4b4254f087, type: 3}
+      propertyPath: tag.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2525440566060035955, guid: 9bad4adc493c5b04c9af0b4b4254f087, type: 3}
       propertyPath: m_Name
       value: Win
+      objectReference: {fileID: 0}
+    - target: {fileID: 2525440566060035955, guid: 9bad4adc493c5b04c9af0b4b4254f087, type: 3}
+      propertyPath: m_TagString
+      value: Desaparece
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bad4adc493c5b04c9af0b4b4254f087, type: 3}
@@ -2785,7 +2797,7 @@ PrefabInstance:
       objectReference: {fileID: 1948948491}
     - target: {fileID: 9034925263615049588, guid: 235294e1861f8134d8f8d0ee224163b8, type: 3}
       propertyPath: posicionInicial.x
-      value: -10
+      value: -8
       objectReference: {fileID: 0}
     - target: {fileID: 9034925263615049588, guid: 235294e1861f8134d8f8d0ee224163b8, type: 3}
       propertyPath: posicionInicial.y

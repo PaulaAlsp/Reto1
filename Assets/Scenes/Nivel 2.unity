@@ -861,6 +861,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: -10000
+  tag: []
 --- !u!61 &293756126
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3371,11 +3372,11 @@ PrefabInstance:
       objectReference: {fileID: 938647284}
     - target: {fileID: 9034925263615049588, guid: 235294e1861f8134d8f8d0ee224163b8, type: 3}
       propertyPath: posicionInicial.x
-      value: -10
+      value: -8
       objectReference: {fileID: 0}
     - target: {fileID: 9034925263615049588, guid: 235294e1861f8134d8f8d0ee224163b8, type: 3}
       propertyPath: posicionInicial.y
-      value: -3.5
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 9034925263615049589, guid: 235294e1861f8134d8f8d0ee224163b8, type: 3}
       propertyPath: m_RootOrder
