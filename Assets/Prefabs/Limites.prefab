@@ -156,7 +156,7 @@ GameObject:
   - component: {fileID: 7702459347546295782}
   - component: {fileID: 7702459347546295783}
   - component: {fileID: 7702459347546295768}
-  - component: {fileID: 7702459347546295781}
+  - component: {fileID: 5826455163702935743}
   m_Layer: 0
   m_Name: Square (1)
   m_TagString: Piso
@@ -257,7 +257,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &7702459347546295781
+--- !u!114 &5826455163702935743
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -266,10 +266,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7702459347546295769}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a165c7092ab0f241b300e48c748ae67, type: 3}
+  m_Script: {fileID: 11500000, guid: 8499831903fccd44cac05e15303aa690, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: -10000
+  nextScene: 6
 --- !u!1 &7702459348136396608
 GameObject:
   m_ObjectHideFlags: 0

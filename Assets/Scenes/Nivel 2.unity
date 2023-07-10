@@ -539,7 +539,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: f84eeee11e7e18d43b4d90542f1d5431, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -773,7 +773,7 @@ GameObject:
   - component: {fileID: 293756124}
   - component: {fileID: 293756123}
   - component: {fileID: 293756126}
-  - component: {fileID: 293756125}
+  - component: {fileID: 293756127}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -848,20 +848,6 @@ Transform:
   m_Father: {fileID: 7865805}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &293756125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 293756121}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a165c7092ab0f241b300e48c748ae67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vida: -10000
-  tag: []
 --- !u!61 &293756126
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -888,6 +874,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.53, y: 2.55}
   m_EdgeRadius: 0
+--- !u!114 &293756127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293756121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8499831903fccd44cac05e15303aa690, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextScene: 7
 --- !u!1001 &300847848
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1911,11 +1910,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1070247258315694803, guid: 0045b282c1b93d64f9d0005cd0b9453c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1070247258315694803, guid: 0045b282c1b93d64f9d0005cd0b9453c, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1070247258315694814, guid: 0045b282c1b93d64f9d0005cd0b9453c, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6717345362450666848, guid: 0045b282c1b93d64f9d0005cd0b9453c, type: 3}
       propertyPath: m_RootOrder
@@ -2904,6 +2907,10 @@ PrefabInstance:
     - target: {fileID: 2582060102935517266, guid: 7f8bdb931beeccc47b65f73b93657489, type: 3}
       propertyPath: m_Name
       value: Limites
+      objectReference: {fileID: 0}
+    - target: {fileID: 5826455163702935743, guid: 7f8bdb931beeccc47b65f73b93657489, type: 3}
+      propertyPath: nextScene
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 9039758385871093714, guid: 7f8bdb931beeccc47b65f73b93657489, type: 3}
       propertyPath: m_RootOrder
